@@ -77,7 +77,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   animation-name: circle-intro;
-  animation-delay: 0.75s;
+  animation-delay: 1.2s;
   animation-duration: 1s, 5s;
   animation-fill-mode: forwards;
   transition: width height 2s;
@@ -98,7 +98,7 @@ body {
   width: 10px;
   height: auto;
   animation-name: amber, color-hover;
-  animation-delay: 1.2s;
+  animation-delay: 1.7s;
   animation-duration: 1s, 5s;
   animation-fill-mode: forwards, none;
   animation-iteration-count: 1, infinite;
@@ -119,7 +119,7 @@ body {
   width: 10px;
   height: auto;
   animation-name: red, color-hover;
-  animation-delay: 1.3s;
+  animation-delay: 1.8s;
   animation-duration: 1s, 5s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1, infinite;
@@ -140,7 +140,7 @@ body {
   width: 10px;
   height: auto;
   animation-name: green, color-hover;
-  animation-delay: 1.4s;
+  animation-delay: 1.9s;
   animation-duration: 1s, 5s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1, infinite;
@@ -161,7 +161,7 @@ body {
   width: 10px;
   height: auto;
   animation-name: blue, color-hover;
-  animation-delay: 1.5s;
+  animation-delay: 2s;
   animation-duration: 1s, 5s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1, infinite;
