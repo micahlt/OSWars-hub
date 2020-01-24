@@ -1,0 +1,188 @@
+body {
+  background-color: black;
+  background-size: 1000px;
+  background-size: cover;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.description-os {
+  opacity: 0;
+  padding: 12px;
+  width: 200px;
+  height: 250px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.25s ease-in-out;
+  z-index: 0;
+  border-radius: 10px;
+  line-height: 0.75;
+}
+
+.description-os.addedclass {
+  background-color: white;
+  opacity: 1;
+  z-index: 2;
+  box-shadow: black 0px 0px 5px;
+}
+
+.description-os .subtitle {
+  font-size: 10px;
+}
+
+.description-os .hosts {
+  line-height: 1;
+}
+
+.description-os a {
+  color: black;
+}
+
+.description-os .closebtn {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  z-index: 1;
+}
+
+@keyframes circle-intro {
+  0% {width: 75px; height: 75px;}
+  50% {width: 150px; height: 150px;}
+  100% {width: 55px; height: 55px;}
+}
+
+@keyframes color-hover {
+  0% {width: 65px;}
+  50% {width: 80px;}
+  100% {width: 65px;}
+}
+
+.centercircle {
+  z-index: 1;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-name: circle-intro;
+  animation-delay: 0.75s;
+  animation-duration: 1s, 5s;
+  animation-fill-mode: forwards;
+  transition: width height 2s;
+  cursor: cell;
+}
+
+@keyframes amber {
+  0% {width: 10px;}
+  80% {width: 65px; top: 30%;}
+  100% {width: 65px; top: 30%;}
+}
+
+.amber {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: auto;
+  animation-name: amber, color-hover;
+  animation-delay: 1.2s;
+  animation-duration: 1s, 5s;
+  animation-fill-mode: forwards, none;
+  animation-iteration-count: 1, infinite;
+  cursor: alias;
+}
+
+@keyframes red {
+  0% {width: 10px;}
+  80% {width: 65px; left: 70%;}
+  100% {width: 65px; left: 70%;}
+}
+
+.red {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: auto;
+  animation-name: red, color-hover;
+  animation-delay: 1.3s;
+  animation-duration: 1s, 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1, infinite;
+  cursor: alias;
+}
+
+@keyframes green {
+  0% {width: 10px;}
+  80% {width: 65px; top: 70%;}
+  100% {width: 65px; top: 70%;}
+}
+
+.green {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: auto;
+  animation-name: green, color-hover;
+  animation-delay: 1.4s;
+  animation-duration: 1s, 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1, infinite;
+  cursor: alias;
+}
+
+@keyframes blue {
+  0% {width: 10px;}
+  80% {width: 65px; left: 30%;}
+  100% {width: 65px; left: 30%;}
+}
+
+.blue {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: auto;
+  animation-name: blue, color-hover;
+  animation-delay: 1.5s;
+  animation-duration: 1s, 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1, infinite;
+  cursor: alias;
+}
+
+.credits p{
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 11.5px;
+  color: #212121;
+}
+
+.credits {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.credits a {
+  text-decoration: none;
+  color: inherit;
+}
