@@ -81,7 +81,6 @@ body {
   animation-duration: 1s, 5s;
   animation-fill-mode: forwards;
   transition: width height 2s;
-  cursor: cell;
 }
 
 @keyframes amber {
@@ -102,7 +101,6 @@ body {
   animation-duration: 1s, 5s;
   animation-fill-mode: forwards, none;
   animation-iteration-count: 1, infinite;
-  cursor: alias;
 }
 
 @keyframes red {
@@ -123,7 +121,6 @@ body {
   animation-duration: 1s, 5s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1, infinite;
-  cursor: alias;
 }
 
 @keyframes green {
@@ -144,7 +141,6 @@ body {
   animation-duration: 1s, 5s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1, infinite;
-  cursor: alias;
 }
 
 @keyframes blue {
@@ -165,7 +161,6 @@ body {
   animation-duration: 1s, 5s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1, infinite;
-  cursor: alias;
 }
 
 .credits p{
